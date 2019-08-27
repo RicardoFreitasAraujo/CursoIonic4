@@ -18,7 +18,11 @@ const routes: Routes = [
   { path: 'botoes-page', loadChildren: './pages/botoes-page/botoes-page.module#BotoesPagePageModule' },
   { path: 'aluno', loadChildren: './pages/aluno/aluno.module#AlunoPageModule' },
   { path: 'instalacao', loadChildren: './pages/instalacao/instalacao.module#InstalacaoPageModule' },
-  { path: 'layout', loadChildren: './pages/layout/layout.module#LayoutPageModule' }
+  { path: 'layout', loadChildren: './pages/layout/layout.module#LayoutPageModule' },
+  { path: 'layout-header-footer', loadChildren: './pages/layout-header-footer/layout-header-footer.module#LayoutHeaderFooterPageModule' },
+  { path: 'layout-tabs', loadChildren: './pages/layout-tabs/layout-tabs.module#LayoutTabsPageModule' },
+  { path: 'layout-menu', loadChildren: './pages/layout-menu/layout-menu.module#LayoutMenuPageModule' },
+  { path: 'layout-split-panel', loadChildren: './pages/layout-split-panel/layout-split-panel.module#LayoutSplitPanelPageModule' }
 ];
 
 @NgModule({
